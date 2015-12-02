@@ -8,7 +8,9 @@
 		<meta name="description" content="Sistema de Folgas"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-	</head>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/css/uikit.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/js/uikit.min.js"></script>	</head>
 	<body>
 		<div class="body">
 			<main class="main">
@@ -16,9 +18,11 @@
 					<img src="img/logo1.png" alt="Domino's Pizzaria">
 				</figure>
 				<form action="php/login.php" method="post">
-					<input class="usuario" name="usuario" type="text" value="Insira o Usuario aqui">
+					<input class="usuario" name="usuario" type="text" placeholder="Usuario"/>
+					
 					<br><br>
-					<input class="senha" name="senha" type="password" value="Insira">
+					<input class="senha" name="senha" type="password" placeholder="Senha" />
+					
 					<br><br>
 					<input class="entrar" name="entrar" type="submit" value="Entrar">
 				</form>
@@ -26,3 +30,4 @@
 		</div>
 	</body>
 </html>
+

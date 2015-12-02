@@ -49,14 +49,26 @@ body, html {
 	background: rgba(255,255,255,1);
 
 }
-.logo {
-
-}
 
 form{
 	width: 80%;
 	max-width: 100%;
 	margin: auto;
+	margin-top: 5em;
+	margin-left: 11em;
 }
-form input {
+
+.usuario, .senha {
+	width: 10em;
+	max-width: 100%;
+	font-weight: 300;
+	color: rgba(0,0,0,.5);
+}
+
+
+
+.entrar {
+	padding: .4em 1.8em;
+	font-size: 1.6em;
+	font-weight: 500;
 }
