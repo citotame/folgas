@@ -13,7 +13,7 @@ body, html {
 	-webkit-align-items: center;
  	align-items: center;
  	-webkit-justify-content: center;
-	justify-content: center
+	justify-content: center;
 
 	background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
@@ -34,7 +34,7 @@ body, html {
 	-webkit-align-items: center;
  	align-items: center;
  	-webkit-justify-content: center;
-	justify-content: center
+	justify-content: center;
 }
 
 .main {
@@ -51,18 +51,18 @@ body, html {
 }
 
 form{
-	width: 80%;
-	max-width: 100%;
-	margin: auto;
-	margin-top: 5em;
-	margin-left: 11em;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+ 	align-items: center;
+ 	-webkit-justify-content: center;
+	justify-content: center;
 }
 
-.usuario, .senha {
+.login, .senha {
 	width: 10em;
 	max-width: 100%;
-	font-weight: 300;
-	color: rgba(0,0,0,.5);
+	font-weight: 300; 
 }
 
 
@@ -71,4 +71,5 @@ form{
 	padding: .4em 1.8em;
 	font-size: 1.6em;
 	font-weight: 500;
+
 }
